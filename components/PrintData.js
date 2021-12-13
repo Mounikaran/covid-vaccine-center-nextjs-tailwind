@@ -17,7 +17,7 @@ function PrintData({ sessions }) {
                 <h2 className="font-bold font-sans text-xl"> Slots </h2> 
               {session.slots.map((slot, index) => (
                 <p key={index} className="text-center my-1">
-                  <span className="rounded-xl bg-purple-200 px-1">{slot}</span>
+                  <span className="rounded-xl bg-purple-100 px-1">{slot}</span>
                 </p>
               ))}
             </div>
